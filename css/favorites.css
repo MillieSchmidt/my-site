@@ -1,0 +1,45 @@
+.favorites {
+    padding: 0 25rem;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 995px) {
+    .favorites {
+        padding: 0 12rem 2rem 12rem;
+    }
+}
+
+@media screen and (max-width: 895px) {
+    .favorites {
+        padding: 0 5rem 2rem 5rem;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .favorites {
+        width: 50%;
+        margin: 0 auto;
+        padding: 0 0 2rem 0;
+        font-size: 0.9rem;
+    }
+
+    .favorite-site a {
+        font-size: 0.6rem;
+    }
+
+    .footer {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    .favorites {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .favorites {
+        width: 95%;
+    }
+}

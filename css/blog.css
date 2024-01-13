@@ -1,0 +1,66 @@
+.blog {
+    padding: 0 25rem 2rem 25rem;
+}
+
+button {
+    margin-bottom: 1rem;
+    background-color: rgb(39, 26, 72);
+    border: 0;
+}
+
+.recent-articles, .categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.1rem 0;
+}
+
+.recent-articles pre {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.categories {
+    padding: 1rem 0;
+}
+
+.recent-articles-title, .categories-title {
+    margin: 0 0 0.3rem 0;
+    color: gold;
+    font-size: 1.3rem;
+}
+
+.recent-article, .category {
+    margin: 0.3rem 0;
+}
+
+@media screen and (max-width: 995px) {
+    .blog {
+        padding: 0 12rem 2rem 12rem
+    }
+}
+
+@media screen and (max-width: 709px) {
+    .blog {
+        padding: 0 5rem 2rem 5rem;
+        font-size: 0.9rem;
+    }
+
+    .recent-articles-title, .categories-title {
+        font-size: 1.2rem;
+    }
+
+    #date {
+        font-size: 0.9rem;
+    }
+
+    .footer {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .blog {
+        padding: 0 2rem 2rem 2rem;
+    }
+}
